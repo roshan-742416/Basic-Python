@@ -1,0 +1,5 @@
+# How to shuffle a string
+import random
+string = "Rhododendron"
+shuffled_string = ''.join(random.sample(string, len(string)))
+print(shuffled_string)
